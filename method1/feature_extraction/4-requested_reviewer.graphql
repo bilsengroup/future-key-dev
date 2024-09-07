@@ -1,0 +1,40 @@
+query {
+  repository(owner: {repo_owner}, name: {repo_name}) {
+    pullRequests(first: 100, after: {cursor}) {
+      nodes {
+        state
+        createdAt
+        closedAt
+        mergedAt
+        author {
+          login
+        }
+        reviews(first: 50) {
+          nodes {
+            author {
+              login
+            }
+            state
+            createdAt
+          }
+        }
+         reviewRequests(first: 100) {
+              nodes {
+                requestedReviewer {
+                  ... on User {
+                    name
+                    login
+                  }
+                }
+              }
+            }
+
+
+      }
+      pageInfo {
+        hasNextPage
+        endCursor
+      }
+    }
+  }
+}

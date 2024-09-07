@@ -1,0 +1,24 @@
+query {
+  repository(owner: {repo_owner}, name: {repo_name}) {
+    issues(first: 100, after: {cursor}) {
+      nodes {
+        number
+        state
+        createdAt
+        closedAt
+        author {
+          login
+        }
+        assignees(first: 20) {
+          nodes {
+            login
+          }
+        }
+      }
+        pageInfo {
+        hasNextPage
+        endCursor
+      }
+    }
+  }
+}
