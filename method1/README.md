@@ -1,4 +1,4 @@
-# Project Configuration Instructions
+# Configuration Instructions
 
 ## Initial Configuration
 Initially, we need to modify the `conf.py` file. The following parameters should be set:
