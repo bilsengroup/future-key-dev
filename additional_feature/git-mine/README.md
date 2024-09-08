@@ -2,7 +2,7 @@
 
 This directory contains a Git log analysis tool that helps you analyze the code survival rates of each developer by using the commit history of a Git repository. 
 
-It requires Python 3.7 or higher and Git to be installed on your system. Additionally, make sure to install the required packages listed in the `requirements.txt` file.
+It requires Python 3.9 or higher and Git to be installed on your system. Additionally, make sure to install the required packages listed in the `requirements.txt` file.
 
 To use the tool, follow these steps:
 
