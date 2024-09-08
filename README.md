@@ -18,11 +18,11 @@ The study addresses the following research questions:
 
 The project contains three main folders:
 
-1. **method1/**: This folder contains the implementation of the first methodology, which answers **RQ1** and **RQ3**. It contains the code used to generate the dataset and the models used for predicting future key developers using various machine learning algorithms (kNN, LR, NB, RF).
+1. **method1**: This folder contains the implementation of the first methodology, which answers **RQ1** and **RQ3**. It contains the code used to generate the dataset and the models used for predicting future key developers using various machine learning algorithms (kNN, LR, NB, RF).
    
-2. **method2/**: This folder contains the implementation of the second methodology, which answers **RQ2** and provides additional features for enhancing predictions in **RQ3** using aligned embeddings.
+2. **method2**: This folder contains the implementation of the second methodology, which answers **RQ2** and provides additional features for enhancing predictions in **RQ3** using aligned embeddings.
 
-3. **additional_feature/**: This folder computes the code survival feature used in **method1** to measure the quality and longevity of code contributions.
+3. **additional_feature**: This folder computes the code survival feature used in **method1** to measure the quality and longevity of code contributions.
 
 Each folder contains a detailed README with further instructions specific to that section.
 
