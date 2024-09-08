@@ -31,8 +31,7 @@ Each folder contains a detailed README with further instructions specific to tha
 1. Clone this repository to your local environment:
    
    ```bash
-   git clone [repository link]
-   cd [repository folder]
+   git clone https://github.com/bilsengroup/future-key-dev/tree/future_key_dev
    
 2. Navigate to the specific methodology folder (either `method1/` or `method2/`) and follow the instructions in the corresponding README file to run the experiments.
 
