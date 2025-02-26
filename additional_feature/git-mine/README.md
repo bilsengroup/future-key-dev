@@ -16,7 +16,7 @@ python git-mine.py --path /path/to/git/repository --authors /path/to/authors/fil
 
 Replace `/path/to/git/repository` with the actual path to your Git repository and `/path/to/authors/file` with the path to the authors file.
 
-Example authors files are included in this directory as `devs_<repo_name>.json`.
+An example JSON file named `example_author.json` can be found in this directory, showing the structure of key-value pairs in an authors file. An authors file for a repository can be obtained by running the scripts under the [method1](../../method1) folder in this repository. Please refer to the respective [README.md](../../method1/README.md) file for further instructions.
 
 The tool will analyze the Git log and output the results to a file named `devs.csv`.
 
