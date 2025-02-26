@@ -1,0 +1,16 @@
+{
+    "gh_username": {
+        "name": "Firstname Lastname",
+        "email": "mail@example.com",
+        "first_commit_date": "1999-01-06T16:45:48Z",
+        "first_six_months": "1999-07-06T16:45:48+00:00",
+        "first_two_years": "2001-01-06T16:45:48+00:00",
+        "devKeys": [
+            "business@example.org",
+            "Firstname Lastname",
+            "mail@example.com",
+            "gh_username"
+        ],
+        "MODE_2_flag": false
+    }
+}
