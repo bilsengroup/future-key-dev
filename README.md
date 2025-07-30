@@ -11,7 +11,7 @@ This research introduces a dual-methodology approach for predicting future key d
 The study addresses the following research questions:
 
 - **RQ1**: Which predictive model—kNN, LR, RF, or NB—is the most effective for predicting future key developers in software projects?
-- **RQ2**: Which diachronic alignment technique performs better for predicting future key developers, measured by F1 score?
+- **RQ2**: Which diachronic alignment technique (AlignOP or AlignNA) performs better for predicting future key developer, measured by F1 score?
 - **RQ3**: Does combining the best performers of the first and second methodologies improve the prediction of future key developers in a software project?
 
 ## Project Structure
